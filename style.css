@@ -1,0 +1,61 @@
+table {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    height:391px;
+    border-radius: 4%;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #0a0a0a;
+    color: rgb(239, 235, 235);
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border-radius: 4%;
+}
+
+input:hover[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #0f0f0f;
+    color: rgb(236, 233, 233);
+    background-color: rgb(233, 240, 247);
+    color: rgb(0, 0, 0);
+    border-color: #6f6c6c;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border-radius: 4%;
+}
+
+input[type="text"] {
+    background-color: rgb(213, 209, 209);
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(103, 101, 101);
+    border-radius: -1%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+input[value="="] {
+    color: black;
+    background-color: rgb(247, 247, 163);
+}
+
+input[value="c"]{
+    background-color: rgb(237, 11, 11);
+}
+
+input[value="/"] ,input[value="+"], input[value="*"] ,input[value="-"]{
+ background-color: rgb(4, 115, 45);
+}
